@@ -3,12 +3,12 @@
 # the readline() method reads a single line from the file. If we want to read multiple lines, we ca use a loop.
 # THe readlines() method reads all the lines of the file and returns them as a  list of string.
 
-# f = open ('myfile.txt', 'r')
-# while True:
-#     line = f.readline()
-#     if not line:
-#         break
-#     print(line)
+f = open ('myfile.txt', 'r')
+while True:
+    line = f.readline()
+    if not line:
+        break
+    print(line)
 
 
 
